@@ -22,24 +22,28 @@ In the long-term, both the submission & confirmation and the voting steps will b
 
 ### Required in all submissions
 
-* Field Name
-* Field type:
+* **Field Name:**
+* **Field type:**
   * “entity”
   * “text”
   * “integer”
   * “date”
   * “url”
-* Number of values accepted:
+* **Number of values accepted:**
   * “single”
   * “multiple”
-* Tooltip description:
+* **Constraints:** Detail any constraints (such as: only applies when subject “is a” = “Person”, or object must be “Organization”)
+* **Citation Required?:** yes
+* **If the field has a limited # of values (enum field), list all possible values:** [if applicable]
+* **Also known as:** potential alternate names for the predicate
+* **Tooltip description:**
   * short description of the predicate (300 characters or less)
-* Full description:
+* **Full description:**
   * full description of the predicate (expected to be between a couple sentences or a couple paragraphs, depending on complexity)
-* Examples of proper use:
-  * text explaining acceptable usage of the predicate
-* Examples of incorrect use:
-  * text explaining incorrect usage of the predicate
+* **Example of Proper Usage:**
+  * '{SubjectName}' → '[predicate name]' → '{ObjectName}' - reason why this example is a proper use of the predicate
+* **Example of Improper Usage:**
+  * '{SubjectName}' → '[predicate name]' → '{ObjectName}' - reason why this example is an improper use of the predicate
 
 ### Where values must be in specified list
 
